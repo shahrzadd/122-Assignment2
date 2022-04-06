@@ -1,0 +1,30 @@
+.navWrapper {
+	background-color: black;
+}
+
+.navWrapper .brand {
+	color: white;
+}
+
+.logo {
+	width: 150px;
+	height: 30px;
+}
+
+.navWrapper .navLinks {
+	margin-left: auto;
+}
+
+.navWrapper .navLinks .link {
+	color: white;
+}
+.navWrapper .navLinks .link:hover {
+	color: white;
+	transition: 0.2s;
+	border-bottom: 2px solid white;
+}
+
+.navWrapper #basic-nav-dropdown {
+	color: white;
+	background-color: transparent;
+}

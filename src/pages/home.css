@@ -1,0 +1,139 @@
+.topSection {
+	min-height: 500px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.topLeftSide {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.topBanner {
+	width: 100%;
+}
+
+.topRightSide {
+	width: 45%;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+
+.topLeftText{
+	margin-bottom: 50px;
+}
+
+.slogan {
+	color: white;
+	font-size: 95px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.topLeftBtn {
+	margin-top: 50px;
+}
+
+.roundedBtn {
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #ff004c;
+}
+
+.mainTop {
+	background-color: white;
+	display: flex;
+	width: 100%;
+	min-height: 500px;
+}
+
+.midSlogan {
+	color: white;
+	font-size: 75px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.mainMidTop {
+	width: 100%;
+	min-height: 300px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.mainMidMid {
+	display: flex;
+	width: 100%;
+	min-height: 800px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.midLeftSide {
+	width: 45%;
+	height: 700px;
+	background-color: transparent;
+}
+
+.sideBanner {
+	width: 100%;
+	height: 100%;
+}
+
+.midRightSide{
+	width: 45%;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.mainBottomText {
+	text-align: left;
+	color: white;
+	font-size: 25px;
+}
+
+.midRightSideBtn {
+	margin-top: 75px;
+}
+
+.mainMidBottom {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	/* padding-top: 50px; */
+	/* padding-bottom: 50px; */
+}
+
+.midBottomSlogan {
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.mainMidBottom .roundedBtn {
+	margin-top: 50px;
+}
+
